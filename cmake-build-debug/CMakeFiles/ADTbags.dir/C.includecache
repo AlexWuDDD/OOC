@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wualex/Documents/OOC/AbstractDataTypes/Bag.c
+assert.h
+-
+stdlib.h
+-
+stdio.h
+-
+new.h
+/Users/wualex/Documents/OOC/AbstractDataTypes/new.h
+Object.h
+/Users/wualex/Documents/OOC/AbstractDataTypes/Object.h
+Set.h
+/Users/wualex/Documents/OOC/AbstractDataTypes/Set.h
+
+/Users/wualex/Documents/OOC/AbstractDataTypes/Object.h
+
+/Users/wualex/Documents/OOC/AbstractDataTypes/Set.h
+
+/Users/wualex/Documents/OOC/AbstractDataTypes/main.c
+stdio.h
+-
+new.h
+/Users/wualex/Documents/OOC/AbstractDataTypes/new.h
+Object.h
+/Users/wualex/Documents/OOC/AbstractDataTypes/Object.h
+Set.h
+/Users/wualex/Documents/OOC/AbstractDataTypes/Set.h
+
+/Users/wualex/Documents/OOC/AbstractDataTypes/new.h
+

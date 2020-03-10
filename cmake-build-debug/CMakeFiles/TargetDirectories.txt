@@ -1,0 +1,4 @@
+/Users/wualex/Documents/OOC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wualex/Documents/OOC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wualex/Documents/OOC/cmake-build-debug/CMakeFiles/ADTbags.dir
+/Users/wualex/Documents/OOC/cmake-build-debug/CMakeFiles/ADTsets.dir

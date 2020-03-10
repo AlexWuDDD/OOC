@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="OOC" targetName="ADTsets" />
+      <config projectName="OOC" targetName="ADTbags" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af9950f9-fba3-4854-bded-b46c808a4eab" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1YukQCAQmdVUnh367C70tiwjURD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AbstractDataTypes" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.ADTsets">
+    <configuration name="ADTbags" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOC" TARGET_NAME="ADTbags" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOC" RUN_TARGET_NAME="ADTbags">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ADTsets" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOC" TARGET_NAME="ADTsets" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOC" RUN_TARGET_NAME="ADTsets">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.ADTbags" />
+      <item itemvalue="CMake Application.ADTsets" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af9950f9-fba3-4854-bded-b46c808a4eab" name="Default Changelist" comment="" />
+      <created>1583799847793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583799847793</updated>
+      <workItem from="1583799853662" duration="4272000" />
+      <workItem from="1583804633510" duration="2770000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2269" y="288" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583804619443">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2269" y="288" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583804619443" />
+    <state width="1595" height="280" key="GridCell.Tab.0.bottom" timestamp="1583805756186">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1595" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583805756186" />
+    <state width="1595" height="280" key="GridCell.Tab.0.center" timestamp="1583805756185">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1595" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583805756185" />
+    <state width="1595" height="280" key="GridCell.Tab.0.left" timestamp="1583805756184">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1595" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583805756184" />
+    <state width="1595" height="280" key="GridCell.Tab.0.right" timestamp="1583805756185">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1595" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583805756185" />
+  </component>
+</project>
