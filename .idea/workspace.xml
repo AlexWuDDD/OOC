@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="OOC" targetName="strings" />
       <config projectName="OOC" targetName="ADTsets" />
       <config projectName="OOC" targetName="ADTbags" />
     </generated>
@@ -12,7 +13,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af9950f9-fba3-4854-bded-b46c808a4eab" name="Default Changelist" comment="" />
+    <list default="true" id="af9950f9-fba3-4854-bded-b46c808a4eab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTbags.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTbags.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTbags.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTbags.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTbags.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTbags.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTsets.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTsets.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTsets.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTsets.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTsets.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTsets.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +40,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YukQCAQmdVUnh367C70tiwjURD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -40,7 +65,7 @@
       <recent name="$PROJECT_DIR$/cmake-build-debug" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.ADTsets">
+  <component name="RunManager" selected="CMake Application.strings">
     <configuration name="ADTbags" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOC" TARGET_NAME="ADTbags" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOC" RUN_TARGET_NAME="ADTbags">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -51,9 +76,15 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="strings" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOC" TARGET_NAME="strings" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOC" RUN_TARGET_NAME="strings">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.ADTbags" />
       <item itemvalue="CMake Application.ADTsets" />
+      <item itemvalue="CMake Application.strings" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -67,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1583799847793</updated>
       <workItem from="1583799853662" duration="4272000" />
-      <workItem from="1583804633510" duration="2770000" />
+      <workItem from="1583804633510" duration="3006000" />
+      <workItem from="1583887295951" duration="4620000" />
     </task>
     <servers />
   </component>
@@ -79,21 +111,29 @@
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2269" y="288" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583804619443" />
-    <state width="1595" height="280" key="GridCell.Tab.0.bottom" timestamp="1583805756186">
+    <state width="1595" height="280" key="GridCell.Tab.0.bottom" timestamp="1583807647645">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1595" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583805756186" />
-    <state width="1595" height="280" key="GridCell.Tab.0.center" timestamp="1583805756185">
+    <state width="1595" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/50.23.1630.1027@1680.23.1920.1057" timestamp="1583807647645" />
+    <state width="1595" height="280" key="GridCell.Tab.0.center" timestamp="1583807647644">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1595" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583805756185" />
-    <state width="1595" height="280" key="GridCell.Tab.0.left" timestamp="1583805756184">
+    <state width="1595" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/50.23.1630.1027@1680.23.1920.1057" timestamp="1583807647644" />
+    <state width="1595" height="280" key="GridCell.Tab.0.left" timestamp="1583807647644">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1595" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583805756184" />
-    <state width="1595" height="280" key="GridCell.Tab.0.right" timestamp="1583805756185">
+    <state width="1595" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/50.23.1630.1027@1680.23.1920.1057" timestamp="1583807647644" />
+    <state width="1595" height="280" key="GridCell.Tab.0.right" timestamp="1583807647645">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1595" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583805756185" />
+    <state width="1595" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/50.23.1630.1027@1680.23.1920.1057" timestamp="1583807647645" />
+    <state x="2309" y="190" key="refactoring.ChangeSignatureDialog" timestamp="1583890530915">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2309" y="190" key="refactoring.ChangeSignatureDialog/1680.23.1920.1057/44.23.1636.1027@1680.23.1920.1057" timestamp="1583890530915" />
   </component>
 </project>

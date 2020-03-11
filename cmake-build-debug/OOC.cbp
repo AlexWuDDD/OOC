@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OOC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wualex/Documents/OOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wualex/Documents/OOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wualex/Documents/OOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strings">
+				<Option output="/Users/wualex/Documents/OOC/cmake-build-debug/strings" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/OOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 strings"/>
+					<CompileFile command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strings/fast">
+				<Option output="/Users/wualex/Documents/OOC/cmake-build-debug/strings" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/OOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 strings/fast"/>
+					<CompileFile command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ADTbags">
+				<Option output="/Users/wualex/Documents/OOC/cmake-build-debug/ADTbags" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/OOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 ADTbags"/>
+					<CompileFile command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ADTbags/fast">
+				<Option output="/Users/wualex/Documents/OOC/cmake-build-debug/ADTbags" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/OOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 ADTbags/fast"/>
+					<CompileFile command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ADTsets">
+				<Option output="/Users/wualex/Documents/OOC/cmake-build-debug/ADTsets" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/OOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 ADTsets"/>
+					<CompileFile command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ADTsets/fast">
+				<Option output="/Users/wualex/Documents/OOC/cmake-build-debug/ADTsets" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/OOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 ADTsets/fast"/>
+					<CompileFile command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wualex/Documents/OOC/AbstractDataTypes/Bag.c">
+			<Option target="ADTbags"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/AbstractDataTypes/Object.h">
+			<Option target="ADTbags"/>
+			<Option target="ADTsets"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/AbstractDataTypes/Set.c">
+			<Option target="ADTsets"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/AbstractDataTypes/Set.h">
+			<Option target="ADTbags"/>
+			<Option target="ADTsets"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/AbstractDataTypes/main.c">
+			<Option target="ADTbags"/>
+			<Option target="ADTsets"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/AbstractDataTypes/new.h">
+			<Option target="ADTbags"/>
+			<Option target="ADTsets"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/DynamicLinkage/SelfDefine.h">
+			<Option target="strings"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/DynamicLinkage/String.c">
+			<Option target="strings"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/DynamicLinkage/String.h">
+			<Option target="strings"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/DynamicLinkage/main.c">
+			<Option target="strings"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/DynamicLinkage/new.c">
+			<Option target="strings"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/DynamicLinkage/new.h">
+			<Option target="strings"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
