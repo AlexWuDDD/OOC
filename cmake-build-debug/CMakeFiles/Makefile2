@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /Users/wualex/Documents/OOC/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/PSAE.dir/all
 all: CMakeFiles/strings.dir/all
 all: CMakeFiles/ADTbags.dir/all
 all: CMakeFiles/ADTsets.dir/all
@@ -60,6 +61,7 @@ all: CMakeFiles/ADTsets.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/PSAE.dir/clean
 clean: CMakeFiles/strings.dir/clean
 clean: CMakeFiles/ADTbags.dir/clean
 clean: CMakeFiles/ADTsets.dir/clean
@@ -72,13 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
+# Target rules for target CMakeFiles/PSAE.dir
+
+# All Build rule for target.
+CMakeFiles/PSAE.dir/all:
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/depend
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/OOC/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10 "Built target PSAE"
+.PHONY : CMakeFiles/PSAE.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PSAE.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/OOC/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PSAE.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/OOC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/PSAE.dir/rule
+
+# Convenience name for target.
+PSAE: CMakeFiles/PSAE.dir/rule
+
+.PHONY : PSAE
+
+# clean rule for target.
+CMakeFiles/PSAE.dir/clean:
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/clean
+.PHONY : CMakeFiles/PSAE.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/strings.dir
 
 # All Build rule for target.
 CMakeFiles/strings.dir/all:
 	$(MAKE) -f CMakeFiles/strings.dir/build.make CMakeFiles/strings.dir/depend
 	$(MAKE) -f CMakeFiles/strings.dir/build.make CMakeFiles/strings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/OOC/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10 "Built target strings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/OOC/cmake-build-debug/CMakeFiles --progress-num=11,12,13,14 "Built target strings"
 .PHONY : CMakeFiles/strings.dir/all
 
 # Build rule for subdir invocation for target.

@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PSAE
+
+# Build rule for target.
+PSAE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PSAE
+.PHONY : PSAE
+
+# fast build rule for target.
+PSAE/fast:
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/build
+.PHONY : PSAE/fast
+
+#=============================================================================
 # Target rules for targets named strings
 
 # Build rule for target.
@@ -314,6 +327,87 @@ DynamicLinkage/new.c.s:
 	$(MAKE) -f CMakeFiles/strings.dir/build.make CMakeFiles/strings.dir/DynamicLinkage/new.c.s
 .PHONY : DynamicLinkage/new.c.s
 
+ProgrammingSavvyArithmmeticExpression/Parse.o: ProgrammingSavvyArithmmeticExpression/Parse.c.o
+
+.PHONY : ProgrammingSavvyArithmmeticExpression/Parse.o
+
+# target to build an object file
+ProgrammingSavvyArithmmeticExpression/Parse.c.o:
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/ProgrammingSavvyArithmmeticExpression/Parse.c.o
+.PHONY : ProgrammingSavvyArithmmeticExpression/Parse.c.o
+
+ProgrammingSavvyArithmmeticExpression/Parse.i: ProgrammingSavvyArithmmeticExpression/Parse.c.i
+
+.PHONY : ProgrammingSavvyArithmmeticExpression/Parse.i
+
+# target to preprocess a source file
+ProgrammingSavvyArithmmeticExpression/Parse.c.i:
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/ProgrammingSavvyArithmmeticExpression/Parse.c.i
+.PHONY : ProgrammingSavvyArithmmeticExpression/Parse.c.i
+
+ProgrammingSavvyArithmmeticExpression/Parse.s: ProgrammingSavvyArithmmeticExpression/Parse.c.s
+
+.PHONY : ProgrammingSavvyArithmmeticExpression/Parse.s
+
+# target to generate assembly for a file
+ProgrammingSavvyArithmmeticExpression/Parse.c.s:
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/ProgrammingSavvyArithmmeticExpression/Parse.c.s
+.PHONY : ProgrammingSavvyArithmmeticExpression/Parse.c.s
+
+ProgrammingSavvyArithmmeticExpression/main.o: ProgrammingSavvyArithmmeticExpression/main.c.o
+
+.PHONY : ProgrammingSavvyArithmmeticExpression/main.o
+
+# target to build an object file
+ProgrammingSavvyArithmmeticExpression/main.c.o:
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/ProgrammingSavvyArithmmeticExpression/main.c.o
+.PHONY : ProgrammingSavvyArithmmeticExpression/main.c.o
+
+ProgrammingSavvyArithmmeticExpression/main.i: ProgrammingSavvyArithmmeticExpression/main.c.i
+
+.PHONY : ProgrammingSavvyArithmmeticExpression/main.i
+
+# target to preprocess a source file
+ProgrammingSavvyArithmmeticExpression/main.c.i:
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/ProgrammingSavvyArithmmeticExpression/main.c.i
+.PHONY : ProgrammingSavvyArithmmeticExpression/main.c.i
+
+ProgrammingSavvyArithmmeticExpression/main.s: ProgrammingSavvyArithmmeticExpression/main.c.s
+
+.PHONY : ProgrammingSavvyArithmmeticExpression/main.s
+
+# target to generate assembly for a file
+ProgrammingSavvyArithmmeticExpression/main.c.s:
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/ProgrammingSavvyArithmmeticExpression/main.c.s
+.PHONY : ProgrammingSavvyArithmmeticExpression/main.c.s
+
+ProgrammingSavvyArithmmeticExpression/value.o: ProgrammingSavvyArithmmeticExpression/value.c.o
+
+.PHONY : ProgrammingSavvyArithmmeticExpression/value.o
+
+# target to build an object file
+ProgrammingSavvyArithmmeticExpression/value.c.o:
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/ProgrammingSavvyArithmmeticExpression/value.c.o
+.PHONY : ProgrammingSavvyArithmmeticExpression/value.c.o
+
+ProgrammingSavvyArithmmeticExpression/value.i: ProgrammingSavvyArithmmeticExpression/value.c.i
+
+.PHONY : ProgrammingSavvyArithmmeticExpression/value.i
+
+# target to preprocess a source file
+ProgrammingSavvyArithmmeticExpression/value.c.i:
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/ProgrammingSavvyArithmmeticExpression/value.c.i
+.PHONY : ProgrammingSavvyArithmmeticExpression/value.c.i
+
+ProgrammingSavvyArithmmeticExpression/value.s: ProgrammingSavvyArithmmeticExpression/value.c.s
+
+.PHONY : ProgrammingSavvyArithmmeticExpression/value.s
+
+# target to generate assembly for a file
+ProgrammingSavvyArithmmeticExpression/value.c.s:
+	$(MAKE) -f CMakeFiles/PSAE.dir/build.make CMakeFiles/PSAE.dir/ProgrammingSavvyArithmmeticExpression/value.c.s
+.PHONY : ProgrammingSavvyArithmmeticExpression/value.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -322,6 +416,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... PSAE"
 	@echo "... strings"
 	@echo "... ADTbags"
 	@echo "... ADTsets"
@@ -343,6 +438,15 @@ help:
 	@echo "... DynamicLinkage/new.o"
 	@echo "... DynamicLinkage/new.i"
 	@echo "... DynamicLinkage/new.s"
+	@echo "... ProgrammingSavvyArithmmeticExpression/Parse.o"
+	@echo "... ProgrammingSavvyArithmmeticExpression/Parse.i"
+	@echo "... ProgrammingSavvyArithmmeticExpression/Parse.s"
+	@echo "... ProgrammingSavvyArithmmeticExpression/main.o"
+	@echo "... ProgrammingSavvyArithmmeticExpression/main.i"
+	@echo "... ProgrammingSavvyArithmmeticExpression/main.s"
+	@echo "... ProgrammingSavvyArithmmeticExpression/value.o"
+	@echo "... ProgrammingSavvyArithmmeticExpression/value.i"
+	@echo "... ProgrammingSavvyArithmmeticExpression/value.s"
 .PHONY : help
 
 

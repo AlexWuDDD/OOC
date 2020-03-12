@@ -37,6 +37,34 @@
 					<DistClean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="PSAE">
+				<Option output="/Users/wualex/Documents/OOC/cmake-build-debug/PSAE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/OOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 PSAE"/>
+					<CompileFile command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PSAE/fast">
+				<Option output="/Users/wualex/Documents/OOC/cmake-build-debug/PSAE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/OOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 PSAE/fast"/>
+					<CompileFile command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/make -f &quot;/Users/wualex/Documents/OOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="strings">
 				<Option output="/Users/wualex/Documents/OOC/cmake-build-debug/strings" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wualex/Documents/OOC/cmake-build-debug"/>
@@ -161,6 +189,21 @@
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/OOC/DynamicLinkage/new.h">
 			<Option target="strings"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/ProgrammingSavvyArithmmeticExpression/Parse.c">
+			<Option target="PSAE"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/ProgrammingSavvyArithmmeticExpression/Parse.h">
+			<Option target="PSAE"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/ProgrammingSavvyArithmmeticExpression/main.c">
+			<Option target="PSAE"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/ProgrammingSavvyArithmmeticExpression/value.c">
+			<Option target="PSAE"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/OOC/ProgrammingSavvyArithmmeticExpression/value.h">
+			<Option target="PSAE"/>
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/OOC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

@@ -5,6 +5,7 @@
       <config projectName="OOC" targetName="strings" />
       <config projectName="OOC" targetName="ADTsets" />
       <config projectName="OOC" targetName="ADTbags" />
+      <config projectName="OOC" targetName="PSAE" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,20 +17,13 @@
     <list default="true" id="af9950f9-fba3-4854-bded-b46c808a4eab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTbags.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTbags.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTbags.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTbags.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTbags.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTbags.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTsets.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTsets.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTsets.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTsets.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTsets.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ADTsets.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/strings.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/strings.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OOC.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OOC.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +36,9 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-PSAE" />
   </component>
   <component name="ProjectId" id="1YukQCAQmdVUnh367C70tiwjURD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -76,6 +73,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PSAE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOC" TARGET_NAME="PSAE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOC" RUN_TARGET_NAME="PSAE">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="strings" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OOC" TARGET_NAME="strings" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OOC" RUN_TARGET_NAME="strings">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -84,6 +86,7 @@
     <list>
       <item itemvalue="CMake Application.ADTbags" />
       <item itemvalue="CMake Application.ADTsets" />
+      <item itemvalue="CMake Application.PSAE" />
       <item itemvalue="CMake Application.strings" />
     </list>
   </component>
@@ -99,7 +102,8 @@
       <updated>1583799847793</updated>
       <workItem from="1583799853662" duration="4272000" />
       <workItem from="1583804633510" duration="3006000" />
-      <workItem from="1583887295951" duration="4620000" />
+      <workItem from="1583887295951" duration="4715000" />
+      <workItem from="1583972968463" duration="5033000" />
     </task>
     <servers />
   </component>
@@ -111,29 +115,37 @@
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2269" y="288" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583804619443" />
-    <state width="1595" height="280" key="GridCell.Tab.0.bottom" timestamp="1583807647645">
+    <state width="1595" height="280" key="GridCell.Tab.0.bottom" timestamp="1583892205352">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state width="1595" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/44.23.1636.1027@1680.23.1920.1057" timestamp="1583892205352" />
     <state width="1595" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583805756186" />
     <state width="1595" height="280" key="GridCell.Tab.0.bottom/1680.23.1920.1057/50.23.1630.1027@1680.23.1920.1057" timestamp="1583807647645" />
-    <state width="1595" height="280" key="GridCell.Tab.0.center" timestamp="1583807647644">
+    <state width="1595" height="280" key="GridCell.Tab.0.center" timestamp="1583892205352">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state width="1595" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/44.23.1636.1027@1680.23.1920.1057" timestamp="1583892205352" />
     <state width="1595" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583805756185" />
     <state width="1595" height="280" key="GridCell.Tab.0.center/1680.23.1920.1057/50.23.1630.1027@1680.23.1920.1057" timestamp="1583807647644" />
-    <state width="1595" height="280" key="GridCell.Tab.0.left" timestamp="1583807647644">
+    <state width="1595" height="280" key="GridCell.Tab.0.left" timestamp="1583892205351">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state width="1595" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/44.23.1636.1027@1680.23.1920.1057" timestamp="1583892205351" />
     <state width="1595" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583805756184" />
     <state width="1595" height="280" key="GridCell.Tab.0.left/1680.23.1920.1057/50.23.1630.1027@1680.23.1920.1057" timestamp="1583807647644" />
-    <state width="1595" height="280" key="GridCell.Tab.0.right" timestamp="1583807647645">
+    <state width="1595" height="280" key="GridCell.Tab.0.right" timestamp="1583892205352">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
+    <state width="1595" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/44.23.1636.1027@1680.23.1920.1057" timestamp="1583892205352" />
     <state width="1595" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/48.23.1632.1027@1680.23.1920.1057" timestamp="1583805756185" />
     <state width="1595" height="280" key="GridCell.Tab.0.right/1680.23.1920.1057/50.23.1630.1027@1680.23.1920.1057" timestamp="1583807647645" />
     <state x="2309" y="190" key="refactoring.ChangeSignatureDialog" timestamp="1583890530915">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2309" y="190" key="refactoring.ChangeSignatureDialog/1680.23.1920.1057/44.23.1636.1027@1680.23.1920.1057" timestamp="1583890530915" />
+    <state x="529" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1583973532064">
+      <screen x="48" y="23" width="1632" height="1027" />
+    </state>
+    <state x="529" y="250" width="670" height="676" key="search.everywhere.popup/48.23.1632.1027@48.23.1632.1027" timestamp="1583973532064" />
   </component>
 </project>
